@@ -1,0 +1,79 @@
+name: Transform Localization JSON
+
+on:
+  pull_request:
+    branches:
+      - dev
+    types: [opened, synchronize, reopened, ready_for_review]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  transform:
+    if: github.head_ref == 'service'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Set Git config
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      - name: Transform JSON files
+        run: |
+          node <<'EOF'
+          const fs = require('fs');
+
+          const files = fs.readdirSync('.')
+            .filter(f => f.endsWith('.json'));
+
+          for (const file of files) {
+            console.log(`Processing ${file}...`);
+
+            const input = JSON.parse(fs.readFileSync(file, 'utf8'));
+
+            // Skip already-converted files (not arrays)
+            if (!Array.isArray(input)) {
+              console.log(`Skipping ${file} (already converted)`);
+              continue;
+            }
+
+            const output = {};
+
+            for (const item of input) {
+              if (!item.identifier) continue;
+
+              const keys = item.identifier.split('.');
+              let current = output;
+
+              for (let i = 0; i < keys.length - 1; i++) {
+                if (!current[keys[i]]) current[keys[i]] = {};
+                current = current[keys[i]];
+              }
+
+              current[keys[keys.length - 1]] =
+                item.translation || item.source_string || "";
+            }
+
+            fs.writeFileSync(file, JSON.stringify(output, null, 2));
+          }
+          EOF
+
+      - name: Commit changes (if any)
+        run: |
+          git add *.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-transform localization JSON format"
+            git push origin HEAD:${{ github.head_ref }}
+          fi
