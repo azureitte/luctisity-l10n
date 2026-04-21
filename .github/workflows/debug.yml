@@ -1,0 +1,14 @@
+name: Debug Branch Info
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debuginfo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Debug branch info
+        run: |
+          echo "head_ref=$GITHUB_HEAD_REF"
+          echo "base_ref=$GITHUB_BASE_REF"
+          echo "ref=$GITHUB_REF"
