@@ -62,6 +62,10 @@ jobs:
         run: |
           git checkout dev || git checkout -b dev
 
+      - name: Pull latest changes
+        run: |
+          git pull origin dev --rebase
+
       - name: Commit and push
         run: |
           git add .
