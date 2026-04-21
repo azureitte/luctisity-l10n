@@ -12,7 +12,8 @@
     "mystuff": "Meine Inhalte",
     "messages": "Nachrichten",
     "login": "Einloggen",
-    "join": "Verbinden!"
+    "join": "Verbinden!",
+    "logout": "Ausloggen"
   },
   "search": {
     "searchFieldPlaceholder": "Suche..."

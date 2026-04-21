@@ -12,7 +12,8 @@
     "mystuff": "Мои работы",
     "messages": "Сообщения",
     "login": "Войти",
-    "join": "Присоединяйся!"
+    "join": "Присоединяйся!",
+    "logout": "Выйти"
   },
   "search": {
     "searchFieldPlaceholder": "Поиск..."

@@ -12,7 +12,8 @@
     "mystuff": "محتواي",
     "messages": "الرسائل",
     "login": "تسجيل الدخول",
-    "join": "إنضمام!"
+    "join": "إنضمام!",
+    "logout": "تسجيل الخروج"
   },
   "search": {
     "searchFieldPlaceholder": "بحث..."
