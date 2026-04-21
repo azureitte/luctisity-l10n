@@ -94,5 +94,21 @@
         "context": "lang -> nameLocalized",
         "labels": "en.json",
         "max_length": null
+    },
+    {
+        "identifier": "navbar.login",
+        "source_string": "Log In",
+        "translation": "Войти",
+        "context": "Navbar login button",
+        "labels": "unassigned",
+        "max_length": 20
+    },
+    {
+        "identifier": "navbar.join",
+        "source_string": "Join!",
+        "translation": "Присоединяйся!",
+        "context": "Navbar sign up/create account button",
+        "labels": "unassigned",
+        "max_length": 32
     }
 ]
