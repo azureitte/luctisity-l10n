@@ -3,6 +3,9 @@ name: Convert Localization Files
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   transform:
     runs-on: ubuntu-latest
