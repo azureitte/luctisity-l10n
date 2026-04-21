@@ -1,26 +1,122 @@
-{
-  "general": {
-    "ok": "Aceptar",
-    "cancel": "Cancelar",
-    "yes": "Sí",
-    "no": "No"
-  },
-  "navbar": {
-    "create": "Crear",
-    "discover": "Descubrir",
-    "news": "Noticias",
-    "mystuff": "Mi contenido",
-    "messages": "Mensajes",
-    "login": "Iniciar sesión",
-    "join": "¡Únete!"
-  },
-  "search": {
-    "searchFieldPlaceholder": "Buscar..."
-  },
-  "home": {
-    "welcomeText": "Bienvenido a {name}"
-  },
-  "lang": {
-    "nameLocalized": "Español"
-  }
-}
+[
+    {
+        "identifier": "general.ok",
+        "source_string": "OK",
+        "translation": "Aceptar",
+        "context": "general -> ok",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "general.cancel",
+        "source_string": "Cancel",
+        "translation": "Cancelar",
+        "context": "general -> cancel",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "general.yes",
+        "source_string": "Yes",
+        "translation": "Sí",
+        "context": "general -> yes",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "general.no",
+        "source_string": "No",
+        "translation": "No",
+        "context": "general -> no",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.create",
+        "source_string": "Create",
+        "translation": "Crear",
+        "context": "navbar -> create",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.discover",
+        "source_string": "Discover",
+        "translation": "Descubrir",
+        "context": "navbar -> discover",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.news",
+        "source_string": "News",
+        "translation": "Noticias",
+        "context": "navbar -> news",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.mystuff",
+        "source_string": "My Stuff",
+        "translation": "Mi contenido",
+        "context": "navbar -> mystuff",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.messages",
+        "source_string": "Messages",
+        "translation": "Mensajes",
+        "context": "navbar -> messages",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "search.searchFieldPlaceholder",
+        "source_string": "Search...",
+        "translation": "Buscar...",
+        "context": "search -> searchFieldPlaceholder",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "home.welcomeText",
+        "source_string": "Welcome to {name}",
+        "translation": "Bienvenido a {name}",
+        "context": "home -> welcomeText",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "lang.nameLocalized",
+        "source_string": "English",
+        "translation": "Español",
+        "context": "lang -> nameLocalized",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.login",
+        "source_string": "Log In",
+        "translation": "Iniciar sesión",
+        "context": "Navbar login button",
+        "labels": "unassigned",
+        "max_length": 20
+    },
+    {
+        "identifier": "navbar.join",
+        "source_string": "Join!",
+        "translation": "¡Únete!",
+        "context": "Navbar sign up/create account button",
+        "labels": "unassigned",
+        "max_length": 32
+    },
+    {
+        "identifier": "navbar.logout",
+        "source_string": "Log Out",
+        "translation": "Cerrar sesión",
+        "context": "Navbar log out button",
+        "labels": "unassigned",
+        "max_length": 24
+    }
+]
