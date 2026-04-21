@@ -10,7 +10,9 @@
     "discover": "Досліджуй",
     "news": "Новини",
     "mystuff": "Мої роботи",
-    "messages": "Повідомлення"
+    "messages": "Повідомлення",
+    "login": "Увійти",
+    "join": "Приєднуйся!"
   },
   "search": {
     "searchFieldPlaceholder": "Пошук..."

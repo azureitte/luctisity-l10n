@@ -10,7 +10,9 @@
     "discover": "اكتشف",
     "news": "الأخبار",
     "mystuff": "محتواي",
-    "messages": "الرسائل"
+    "messages": "الرسائل",
+    "login": "تسجيل الدخول",
+    "join": "إنضمام!"
   },
   "search": {
     "searchFieldPlaceholder": "بحث..."

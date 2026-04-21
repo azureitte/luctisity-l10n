@@ -10,7 +10,9 @@
     "discover": "Discover",
     "news": "News",
     "mystuff": "My Stuff",
-    "messages": "Messages"
+    "messages": "Messages",
+    "login": "Log In",
+    "join": "Join!"
   },
   "search": {
     "searchFieldPlaceholder": "Search..."

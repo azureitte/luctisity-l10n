@@ -10,7 +10,9 @@
     "discover": "Découvrir",
     "news": "Actualités",
     "mystuff": "Mon contenu",
-    "messages": "Messages"
+    "messages": "Messages",
+    "login": "Se connecter",
+    "join": "Rejoignez!"
   },
   "search": {
     "searchFieldPlaceholder": "Rechercher..."
