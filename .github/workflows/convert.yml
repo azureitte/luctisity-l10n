@@ -1,25 +1,22 @@
-name: Transform Localization JSON
+name: Transform localization JSON
 
 on:
-  pull_request:
+  push:
     branches:
-      - dev
-    types: [opened, synchronize, reopened, ready_for_review]
-  workflow_dispatch:
+      - service
 
 permissions:
   contents: write
 
 jobs:
   transform:
-    if: github.head_ref == 'service'
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout PR branch
+      - name: Checkout service branch
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref }}
+          ref: service
           fetch-depth: 0
 
       - name: Set Git config
@@ -27,7 +24,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-      - name: Transform JSON files
+      - name: Transform localization files
         run: |
           node <<'EOF'
           const fs = require('fs');
@@ -36,13 +33,19 @@ jobs:
             .filter(f => f.endsWith('.json'));
 
           for (const file of files) {
-            console.log(`Processing ${file}...`);
+            console.log(`Processing ${file}`);
 
-            const input = JSON.parse(fs.readFileSync(file, 'utf8'));
+            let input;
+            try {
+              input = JSON.parse(fs.readFileSync(file, 'utf8'));
+            } catch (e) {
+              console.log(`Skipping ${file} (invalid JSON)`);
+              continue;
+            }
 
-            // Skip already-converted files (not arrays)
+            // If it's already transformed (object instead of array), skip
             if (!Array.isArray(input)) {
-              console.log(`Skipping ${file} (already converted)`);
+              console.log(`Skipping ${file} (already transformed)`);
               continue;
             }
 
@@ -59,21 +62,26 @@ jobs:
                 current = current[keys[i]];
               }
 
-              current[keys[keys.length - 1]] =
-                item.translation || item.source_string || "";
+              const lastKey = keys[keys.length - 1];
+
+              current[lastKey] =
+                item.translation ||
+                item.source_string ||
+                "";
             }
 
             fs.writeFileSync(file, JSON.stringify(output, null, 2));
           }
           EOF
 
-      - name: Commit changes (if any)
+      - name: Commit changes
         run: |
           git add *.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "Auto-transform localization JSON format"
-            git push origin HEAD:${{ github.head_ref }}
+            exit 0
           fi
+
+          git commit -m "Auto-transform localization JSON format"
+          git push origin service
