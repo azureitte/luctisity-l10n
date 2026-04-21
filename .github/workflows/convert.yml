@@ -28,10 +28,11 @@ jobs:
       - name: Pull latest
         run: |
           git pull origin dev --rebase
-      
+
       - name: Copy files from service (source) branch
         run: |
-          git checkout service -- *.json
+          git fetch origin service
+          git checkout origin/service -- *.json
 
       - name: Run transformation script for all JSON files
         run: |
