@@ -1,0 +1,98 @@
+[
+    {
+        "identifier": "general.ok",
+        "source_string": "OK",
+        "translation": "OK",
+        "context": "general -> ok",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "general.cancel",
+        "source_string": "Cancel",
+        "translation": "Annuler",
+        "context": "general -> cancel",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "general.yes",
+        "source_string": "Yes",
+        "translation": "Oui",
+        "context": "general -> yes",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "general.no",
+        "source_string": "No",
+        "translation": "Non",
+        "context": "general -> no",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.create",
+        "source_string": "Create",
+        "translation": "Créer",
+        "context": "navbar -> create",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.discover",
+        "source_string": "Discover",
+        "translation": "Découvrir",
+        "context": "navbar -> discover",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.news",
+        "source_string": "News",
+        "translation": "Actualités",
+        "context": "navbar -> news",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.mystuff",
+        "source_string": "My Stuff",
+        "translation": "Mon contenu",
+        "context": "navbar -> mystuff",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.messages",
+        "source_string": "Messages",
+        "translation": "Messages",
+        "context": "navbar -> messages",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "search.searchFieldPlaceholder",
+        "source_string": "Search...",
+        "translation": "Rechercher...",
+        "context": "search -> searchFieldPlaceholder",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "home.welcomeText",
+        "source_string": "Welcome to {name}",
+        "translation": "Bienvenue sur {name}",
+        "context": "home -> welcomeText",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "lang.nameLocalized",
+        "source_string": "English",
+        "translation": "Français",
+        "context": "lang -> nameLocalized",
+        "labels": "en.json",
+        "max_length": null
+    }
+]
