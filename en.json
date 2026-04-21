@@ -12,7 +12,8 @@
     "mystuff": "My Stuff",
     "messages": "Messages",
     "login": "Log In",
-    "join": "Join!"
+    "join": "Join!",
+    "logout": "Log Out"
   },
   "search": {
     "searchFieldPlaceholder": "Search..."
