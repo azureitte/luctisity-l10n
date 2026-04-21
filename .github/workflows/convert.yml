@@ -21,7 +21,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
       
-      - name: Checkout target branch
+      - name: Checkout dev (target) branch
         run: |
           git checkout dev || git checkout -b dev
       
@@ -29,9 +29,9 @@ jobs:
         run: |
           git pull origin dev --rebase
       
-      - name: Copy files from source branch
+      - name: Copy files from service (source) branch
         run: |
-          git checkout source-branch -- *.json
+          git checkout service -- *.json
 
       - name: Run transformation script for all JSON files
         run: |
