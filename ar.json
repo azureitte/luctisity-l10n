@@ -1,0 +1,24 @@
+{
+  "general": {
+    "ok": "موافق",
+    "cancel": "إلغاء",
+    "yes": "نعم",
+    "no": "لا"
+  },
+  "navbar": {
+    "create": "إنشاء",
+    "discover": "اكتشف",
+    "news": "الأخبار",
+    "mystuff": "محتواي",
+    "messages": "الرسائل"
+  },
+  "search": {
+    "searchFieldPlaceholder": "بحث..."
+  },
+  "home": {
+    "welcomeText": "مرحبًا بك في {name}"
+  },
+  "lang": {
+    "nameLocalized": "العربية"
+  }
+}

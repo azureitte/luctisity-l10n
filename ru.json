@@ -1,0 +1,24 @@
+{
+  "general": {
+    "ok": "ОК",
+    "cancel": "Отмена",
+    "yes": "Да",
+    "no": "Нет"
+  },
+  "navbar": {
+    "create": "Создавай",
+    "discover": "Исследуй",
+    "news": "Новости",
+    "mystuff": "Мои работы",
+    "messages": "Сообщения"
+  },
+  "search": {
+    "searchFieldPlaceholder": "Поиск..."
+  },
+  "home": {
+    "welcomeText": "Добро пожаловать в {name}"
+  },
+  "lang": {
+    "nameLocalized": "Русский"
+  }
+}
