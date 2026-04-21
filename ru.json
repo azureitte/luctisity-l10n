@@ -1,26 +1,122 @@
-{
-  "general": {
-    "ok": "ОК",
-    "cancel": "Отмена",
-    "yes": "Да",
-    "no": "Нет"
-  },
-  "navbar": {
-    "create": "Создавай",
-    "discover": "Исследуй",
-    "news": "Новости",
-    "mystuff": "Мои работы",
-    "messages": "Сообщения",
-    "login": "Войти",
-    "join": "Присоединяйся!"
-  },
-  "search": {
-    "searchFieldPlaceholder": "Поиск..."
-  },
-  "home": {
-    "welcomeText": "Добро пожаловать в {name}"
-  },
-  "lang": {
-    "nameLocalized": "Русский"
-  }
-}
+[
+    {
+        "identifier": "general.ok",
+        "source_string": "OK",
+        "translation": "ОК",
+        "context": "general -> ok",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "general.cancel",
+        "source_string": "Cancel",
+        "translation": "Отмена",
+        "context": "general -> cancel",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "general.yes",
+        "source_string": "Yes",
+        "translation": "Да",
+        "context": "general -> yes",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "general.no",
+        "source_string": "No",
+        "translation": "Нет",
+        "context": "general -> no",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.create",
+        "source_string": "Create",
+        "translation": "Создавай",
+        "context": "navbar -> create",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.discover",
+        "source_string": "Discover",
+        "translation": "Исследуй",
+        "context": "navbar -> discover",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.news",
+        "source_string": "News",
+        "translation": "Новости",
+        "context": "navbar -> news",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.mystuff",
+        "source_string": "My Stuff",
+        "translation": "Мои работы",
+        "context": "navbar -> mystuff",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.messages",
+        "source_string": "Messages",
+        "translation": "Сообщения",
+        "context": "navbar -> messages",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "search.searchFieldPlaceholder",
+        "source_string": "Search...",
+        "translation": "Поиск...",
+        "context": "search -> searchFieldPlaceholder",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "home.welcomeText",
+        "source_string": "Welcome to {name}",
+        "translation": "Добро пожаловать в {name}",
+        "context": "home -> welcomeText",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "lang.nameLocalized",
+        "source_string": "English",
+        "translation": "Русский",
+        "context": "lang -> nameLocalized",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.login",
+        "source_string": "Log In",
+        "translation": "Войти",
+        "context": "Navbar login button",
+        "labels": "unassigned",
+        "max_length": 20
+    },
+    {
+        "identifier": "navbar.join",
+        "source_string": "Join!",
+        "translation": "Присоединяйся!",
+        "context": "Navbar sign up/create account button",
+        "labels": "unassigned",
+        "max_length": 32
+    },
+    {
+        "identifier": "navbar.logout",
+        "source_string": "Log Out",
+        "translation": "Выйти",
+        "context": "Navbar log out button",
+        "labels": "unassigned",
+        "max_length": 24
+    }
+]
