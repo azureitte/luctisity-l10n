@@ -1,0 +1,24 @@
+{
+  "general": {
+    "ok": "OK",
+    "cancel": "Abbrechen",
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "navbar": {
+    "create": "Erstellen",
+    "discover": "Entdecken",
+    "news": "Neuigkeiten",
+    "mystuff": "Meine Inhalte",
+    "messages": "Nachrichten"
+  },
+  "search": {
+    "searchFieldPlaceholder": "Suche..."
+  },
+  "home": {
+    "welcomeText": "Willkommen bei {name}"
+  },
+  "lang": {
+    "nameLocalized": "Deutsch"
+  }
+}

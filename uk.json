@@ -1,0 +1,24 @@
+{
+  "general": {
+    "ok": "ОК",
+    "cancel": "Скасувати",
+    "yes": "Так",
+    "no": "Ні"
+  },
+  "navbar": {
+    "create": "Створюй",
+    "discover": "Досліджуй",
+    "news": "Новини",
+    "mystuff": "Мої роботи",
+    "messages": "Повідомлення"
+  },
+  "search": {
+    "searchFieldPlaceholder": "Пошук..."
+  },
+  "home": {
+    "welcomeText": "Ласкаво просимо у {name}"
+  },
+  "lang": {
+    "nameLocalized": "Українська"
+  }
+}
