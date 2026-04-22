@@ -23,5 +23,22 @@
   },
   "lang": {
     "nameLocalized": "العربية"
+  },
+  "footer": {
+    "sectionAbout": "حول",
+    "sectionCommunity": "المجتمع",
+    "sectionSupport": "الدعم",
+    "sectionLegal": "قانوني",
+    "linkAbout": "حول الكثافة",
+    "linkDevs": "للمطورين",
+    "linkDonate": "تبرع!",
+    "linkGuidelines": "المبادئ التوجيهية للمجتمع",
+    "linkStats": "الإحصائيات",
+    "linkNews": "أخبار كثافة الكسب",
+    "linkFaq": "أسئلة متكررة",
+    "linkContact": "اتصل بنا",
+    "linkDiscord": "خادم ديسكورد",
+    "linkTos": "شروط الخدمة",
+    "linkPrivacy": "سياسة الخصوصية"
   }
 }
