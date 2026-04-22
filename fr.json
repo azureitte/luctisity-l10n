@@ -23,5 +23,22 @@
   },
   "lang": {
     "nameLocalized": "Français"
+  },
+  "footer": {
+    "sectionAbout": "À propos",
+    "sectionCommunity": "Communauté",
+    "sectionSupport": "Soutien",
+    "sectionLegal": "Juridique",
+    "linkAbout": "À propos de Luctisity",
+    "linkDevs": "Pour les développeurs",
+    "linkDonate": "Faire un don!",
+    "linkGuidelines": "Directives de la communauté",
+    "linkStats": "Statistiques",
+    "linkNews": "Nouvelles de Luctisity",
+    "linkFaq": "FAQ",
+    "linkContact": "Contactez-nous",
+    "linkDiscord": "Serveur Discord",
+    "linkTos": "Conditions d'utilisation",
+    "linkPrivacy": "Politique de confidentialité"
   }
 }

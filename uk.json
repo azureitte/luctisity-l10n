@@ -23,5 +23,22 @@
   },
   "lang": {
     "nameLocalized": "Українська"
+  },
+  "footer": {
+    "sectionAbout": "Про нас",
+    "sectionCommunity": "Спільнота",
+    "sectionSupport": "Підтримка",
+    "sectionLegal": "Юридичне",
+    "linkAbout": "Про Luctisity",
+    "linkDevs": "Для розробників",
+    "linkDonate": "Підтримати!",
+    "linkGuidelines": "Правила спільноти",
+    "linkStats": "Статистика",
+    "linkNews": "Новини Luctisity",
+    "linkFaq": "Часті питання",
+    "linkContact": "Зв’язатись з нами",
+    "linkDiscord": "Discord сервер",
+    "linkTos": "Умови користування",
+    "linkPrivacy": "Політика конфіденційності"
   }
 }

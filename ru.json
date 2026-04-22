@@ -23,5 +23,22 @@
   },
   "lang": {
     "nameLocalized": "Русский"
+  },
+  "footer": {
+    "sectionAbout": "О нас",
+    "sectionCommunity": "Сообщество",
+    "sectionSupport": "Поддержка",
+    "sectionLegal": "Правовое",
+    "linkAbout": "Про Luctisity",
+    "linkDevs": "Для разработчиков",
+    "linkDonate": "Пожертвовать!",
+    "linkGuidelines": "Правила сообщества",
+    "linkStats": "Статистика",
+    "linkNews": "Новости Luctisity",
+    "linkFaq": "ЧаВО",
+    "linkContact": "Обратная связь",
+    "linkDiscord": "Discord сервер",
+    "linkTos": "Условия использования",
+    "linkPrivacy": "Политика конфиденциальности"
   }
 }
