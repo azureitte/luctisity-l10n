@@ -1,31 +1,242 @@
-{
-  "general": {
-    "ok": "موافق",
-    "cancel": "إلغاء",
-    "yes": "نعم",
-    "no": "لا"
-  },
-  "navbar": {
-    "create": "إنشاء",
-    "discover": "اكتشف",
-    "news": "الأخبار",
-    "mystuff": "محتواي",
-    "messages": "الرسائل",
-    "login": "تسجيل الدخول",
-    "join": "إنضمام!",
-    "logout": "تسجيل الخروج"
-  },
-  "search": {
-    "searchFieldPlaceholder": "بحث..."
-  },
-  "home": {
-    "welcomeText": "مرحبًا بك في {name}"
-  },
-  "lang": {
-    "nameLocalized": "العربية"
-  },
-  "footer": {
-    "sectionAbout": "About",
-    "sectionCommunity": "Community"
-  }
-}
+[
+    {
+        "identifier": "general.ok",
+        "source_string": "OK",
+        "translation": "موافق",
+        "context": "general -> ok",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "general.cancel",
+        "source_string": "Cancel",
+        "translation": "إلغاء",
+        "context": "general -> cancel",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "general.yes",
+        "source_string": "Yes",
+        "translation": "نعم",
+        "context": "general -> yes",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "general.no",
+        "source_string": "No",
+        "translation": "لا",
+        "context": "general -> no",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.create",
+        "source_string": "Create",
+        "translation": "إنشاء",
+        "context": "navbar -> create",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.discover",
+        "source_string": "Discover",
+        "translation": "اكتشف",
+        "context": "navbar -> discover",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.news",
+        "source_string": "News",
+        "translation": "الأخبار",
+        "context": "navbar -> news",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.mystuff",
+        "source_string": "My Stuff",
+        "translation": "محتواي",
+        "context": "navbar -> mystuff",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.messages",
+        "source_string": "Messages",
+        "translation": "الرسائل",
+        "context": "navbar -> messages",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "search.searchFieldPlaceholder",
+        "source_string": "Search...",
+        "translation": "بحث...",
+        "context": "search -> searchFieldPlaceholder",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "home.welcomeText",
+        "source_string": "Welcome to {name}",
+        "translation": "مرحبًا بك في {name}",
+        "context": "home -> welcomeText",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "lang.nameLocalized",
+        "source_string": "English",
+        "translation": "العربية",
+        "context": "lang -> nameLocalized",
+        "labels": "en.json",
+        "max_length": null
+    },
+    {
+        "identifier": "navbar.login",
+        "source_string": "Log In",
+        "translation": "تسجيل الدخول",
+        "context": "Navbar login button",
+        "labels": "unassigned",
+        "max_length": 20
+    },
+    {
+        "identifier": "navbar.join",
+        "source_string": "Join!",
+        "translation": "إنضمام!",
+        "context": "Navbar sign up/create account button",
+        "labels": "unassigned",
+        "max_length": 32
+    },
+    {
+        "identifier": "navbar.logout",
+        "source_string": "Log Out",
+        "translation": "تسجيل الخروج",
+        "context": "Navbar log out button",
+        "labels": "unassigned",
+        "max_length": 24
+    },
+    {
+        "identifier": "footer.sectionAbout",
+        "source_string": "About",
+        "translation": "حول",
+        "context": "\"About\" section of the footer",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "footer.sectionCommunity",
+        "source_string": "Community",
+        "translation": "المجتمع",
+        "context": "\"Community\" section of the footer",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "footer.sectionSupport",
+        "source_string": "Support",
+        "translation": "الدعم",
+        "context": "\"Support\" section of the footer",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "footer.sectionLegal",
+        "source_string": "Legal",
+        "translation": "قانوني",
+        "context": "\"Legal\" section of the footer",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "footer.linkAbout",
+        "source_string": "About Luctisity",
+        "translation": "حول الكثافة",
+        "context": "\"About Luctisity\" link in the footer. The brand name \"Luctisity\" has to be kept untraslated.",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "footer.linkDevs",
+        "source_string": "For Developers",
+        "translation": "للمطورين",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "footer.linkDonate",
+        "source_string": "Donate!",
+        "translation": "تبرع!",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "footer.linkGuidelines",
+        "source_string": "Community Guidelines",
+        "translation": "المبادئ التوجيهية للمجتمع",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "footer.linkStats",
+        "source_string": "Statistics",
+        "translation": "الإحصائيات",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "footer.linkNews",
+        "source_string": "Luctisity News",
+        "translation": "أخبار كثافة الكسب",
+        "context": "\"Luctisity News\" link in the footer. The brand name \"Luctisity\" has to be kept untraslated.",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "footer.linkFaq",
+        "source_string": "FAQ",
+        "translation": "أسئلة متكررة",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "footer.linkContact",
+        "source_string": "Contact Us",
+        "translation": "اتصل بنا",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "footer.linkDiscord",
+        "source_string": "Discord Server",
+        "translation": "خادم ديسكورد",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "footer.linkTos",
+        "source_string": "Terms of Service",
+        "translation": "شروط الخدمة",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "footer.linkPrivacy",
+        "source_string": "Privacy Policy",
+        "translation": "سياسة الخصوصية",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    }
+]
