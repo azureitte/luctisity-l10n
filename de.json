@@ -1,242 +1,44 @@
-[
-    {
-        "identifier": "general.ok",
-        "source_string": "OK",
-        "translation": "OK",
-        "context": "general -> ok",
-        "labels": "en.json",
-        "max_length": null
-    },
-    {
-        "identifier": "general.cancel",
-        "source_string": "Cancel",
-        "translation": "Abbrechen",
-        "context": "general -> cancel",
-        "labels": "en.json",
-        "max_length": null
-    },
-    {
-        "identifier": "general.yes",
-        "source_string": "Yes",
-        "translation": "Ja",
-        "context": "general -> yes",
-        "labels": "en.json",
-        "max_length": null
-    },
-    {
-        "identifier": "general.no",
-        "source_string": "No",
-        "translation": "Nein",
-        "context": "general -> no",
-        "labels": "en.json",
-        "max_length": null
-    },
-    {
-        "identifier": "navbar.create",
-        "source_string": "Create",
-        "translation": "Erstellen",
-        "context": "navbar -> create",
-        "labels": "en.json",
-        "max_length": null
-    },
-    {
-        "identifier": "navbar.discover",
-        "source_string": "Discover",
-        "translation": "Entdecken",
-        "context": "navbar -> discover",
-        "labels": "en.json",
-        "max_length": null
-    },
-    {
-        "identifier": "navbar.news",
-        "source_string": "News",
-        "translation": "Neuigkeiten",
-        "context": "navbar -> news",
-        "labels": "en.json",
-        "max_length": null
-    },
-    {
-        "identifier": "navbar.mystuff",
-        "source_string": "My Stuff",
-        "translation": "Meine Inhalte",
-        "context": "navbar -> mystuff",
-        "labels": "en.json",
-        "max_length": null
-    },
-    {
-        "identifier": "navbar.messages",
-        "source_string": "Messages",
-        "translation": "Nachrichten",
-        "context": "navbar -> messages",
-        "labels": "en.json",
-        "max_length": null
-    },
-    {
-        "identifier": "search.searchFieldPlaceholder",
-        "source_string": "Search...",
-        "translation": "Suche...",
-        "context": "search -> searchFieldPlaceholder",
-        "labels": "en.json",
-        "max_length": null
-    },
-    {
-        "identifier": "home.welcomeText",
-        "source_string": "Welcome to {name}",
-        "translation": "Willkommen bei {name}",
-        "context": "home -> welcomeText",
-        "labels": "en.json",
-        "max_length": null
-    },
-    {
-        "identifier": "lang.nameLocalized",
-        "source_string": "English",
-        "translation": "Deutsch",
-        "context": "lang -> nameLocalized",
-        "labels": "en.json",
-        "max_length": null
-    },
-    {
-        "identifier": "navbar.login",
-        "source_string": "Log In",
-        "translation": "Einloggen",
-        "context": "Navbar login button",
-        "labels": "unassigned",
-        "max_length": 20
-    },
-    {
-        "identifier": "navbar.join",
-        "source_string": "Join!",
-        "translation": "Verbinden!",
-        "context": "Navbar sign up/create account button",
-        "labels": "unassigned",
-        "max_length": 32
-    },
-    {
-        "identifier": "navbar.logout",
-        "source_string": "Log Out",
-        "translation": "Abmelden",
-        "context": "Navbar log out button",
-        "labels": "unassigned",
-        "max_length": 24
-    },
-    {
-        "identifier": "footer.sectionAbout",
-        "source_string": "About",
-        "translation": "Über",
-        "context": "\"About\" section of the footer",
-        "labels": "unassigned",
-        "max_length": null
-    },
-    {
-        "identifier": "footer.sectionCommunity",
-        "source_string": "Community",
-        "translation": "Community",
-        "context": "\"Community\" section of the footer",
-        "labels": "unassigned",
-        "max_length": null
-    },
-    {
-        "identifier": "footer.sectionSupport",
-        "source_string": "Support",
-        "translation": "Support",
-        "context": "\"Support\" section of the footer",
-        "labels": "unassigned",
-        "max_length": null
-    },
-    {
-        "identifier": "footer.sectionLegal",
-        "source_string": "Legal",
-        "translation": "Rechtlich",
-        "context": "\"Legal\" section of the footer",
-        "labels": "unassigned",
-        "max_length": null
-    },
-    {
-        "identifier": "footer.linkAbout",
-        "source_string": "About Luctisity",
-        "translation": "Über Luctisity",
-        "context": "\"About Luctisity\" link in the footer. The brand name \"Luctisity\" has to be kept untraslated.",
-        "labels": "unassigned",
-        "max_length": null
-    },
-    {
-        "identifier": "footer.linkDevs",
-        "source_string": "For Developers",
-        "translation": "Für Entwickler",
-        "context": "null",
-        "labels": "unassigned",
-        "max_length": null
-    },
-    {
-        "identifier": "footer.linkDonate",
-        "source_string": "Donate!",
-        "translation": "Spenden!",
-        "context": "null",
-        "labels": "unassigned",
-        "max_length": null
-    },
-    {
-        "identifier": "footer.linkGuidelines",
-        "source_string": "Community Guidelines",
-        "translation": "Community-Richtlinien",
-        "context": "null",
-        "labels": "unassigned",
-        "max_length": null
-    },
-    {
-        "identifier": "footer.linkStats",
-        "source_string": "Statistics",
-        "translation": "Statistiken",
-        "context": "null",
-        "labels": "unassigned",
-        "max_length": null
-    },
-    {
-        "identifier": "footer.linkNews",
-        "source_string": "Luctisity News",
-        "translation": "Luctisity News",
-        "context": "\"Luctisity News\" link in the footer. The brand name \"Luctisity\" has to be kept untraslated.",
-        "labels": "unassigned",
-        "max_length": null
-    },
-    {
-        "identifier": "footer.linkFaq",
-        "source_string": "FAQ",
-        "translation": "FAQ",
-        "context": "null",
-        "labels": "unassigned",
-        "max_length": null
-    },
-    {
-        "identifier": "footer.linkContact",
-        "source_string": "Contact Us",
-        "translation": "Kontaktiere uns",
-        "context": "null",
-        "labels": "unassigned",
-        "max_length": null
-    },
-    {
-        "identifier": "footer.linkDiscord",
-        "source_string": "Discord Server",
-        "translation": "Discord Server",
-        "context": "null",
-        "labels": "unassigned",
-        "max_length": null
-    },
-    {
-        "identifier": "footer.linkTos",
-        "source_string": "Terms of Service",
-        "translation": "Nutzungsbedingungen",
-        "context": "null",
-        "labels": "unassigned",
-        "max_length": null
-    },
-    {
-        "identifier": "footer.linkPrivacy",
-        "source_string": "Privacy Policy",
-        "translation": "Datenschutzerklärung",
-        "context": "null",
-        "labels": "unassigned",
-        "max_length": null
-    }
-]
+{
+  "general": {
+    "ok": "OK",
+    "cancel": "Abbrechen",
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "navbar": {
+    "create": "Erstellen",
+    "discover": "Entdecken",
+    "news": "Neuigkeiten",
+    "mystuff": "Meine Inhalte",
+    "messages": "Nachrichten",
+    "login": "Einloggen",
+    "join": "Verbinden!",
+    "logout": "Abmelden"
+  },
+  "search": {
+    "searchFieldPlaceholder": "Suche..."
+  },
+  "home": {
+    "welcomeText": "Willkommen bei {name}"
+  },
+  "lang": {
+    "nameLocalized": "Deutsch"
+  },
+  "footer": {
+    "sectionAbout": "Über",
+    "sectionCommunity": "Community",
+    "sectionSupport": "Support",
+    "sectionLegal": "Rechtlich",
+    "linkAbout": "Über Luctisity",
+    "linkDevs": "Für Entwickler",
+    "linkDonate": "Spenden!",
+    "linkGuidelines": "Community-Richtlinien",
+    "linkStats": "Statistiken",
+    "linkNews": "Luctisity News",
+    "linkFaq": "FAQ",
+    "linkContact": "Kontaktiere uns",
+    "linkDiscord": "Discord Server",
+    "linkTos": "Nutzungsbedingungen",
+    "linkPrivacy": "Datenschutzerklärung"
+  }
+}
