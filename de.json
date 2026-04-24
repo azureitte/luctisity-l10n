@@ -13,7 +13,7 @@
     "messages": "Nachrichten",
     "login": "Einloggen",
     "join": "Verbinden!",
-    "logout": "Ausloggen"
+    "logout": "Abmelden"
   },
   "search": {
     "searchFieldPlaceholder": "Suche..."
